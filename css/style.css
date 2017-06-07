@@ -2,10 +2,18 @@
   font-family:'Dosis-Medium'; src:url('../font/Dosis-Medium.TTF')
 
 }
-body {
+html, body {
   margin: 0;
   font-family: 'Dosis-Medium';
   color:rgb(42, 42, 42);
+  min-height: 500px;
+  height: 100%;
+  height: 100%;
+  background-image: url("../img/startup-593327_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .nopadding {
   padding: 0px;
@@ -29,24 +37,32 @@ body {
     background-color: rgb(110, 110, 110);
     height:200px;
 }*/
-
+.background_img{
+  min-height: 500px;
+}
 .Main_box{
   position: absolute;
-  top:10%;
+  margin-top:2%;
   background-color:#FFF;
   border-radius: 5px;
   color:#000;
 
+
+}
+.Wrapper{
+  margin: 5%;
 }
 .Main_box_imgbox{
-  margin-top:20px;
+  margin-top:1%;
   text-align: center;
+
 }
 .profile_img{
   width:80%;
+  border-radius: 10px;
 }
 .Main_box_content{
-  margin-top: 20px;
+  margin-top: 10%;
 }
 .Myschool_box{
   text-align: center;
@@ -60,21 +76,30 @@ body {
 }
 .social_btns_box{
   text-align: center;
-  margin-top: 14px;
+  margin-top: 5%;
+}
+.btns{
+  background-color: #FFF;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 2px;
+  margin:1%;
+  padding-top:4px;
+  padding-bottom:4px;
+  padding-right:16px;
+  padding-left:16px;
+  transition: color 0.5s, border 0.5s;
 }
 .social_btns{
     font-size: 40px;
-    background-color: #FFF;
-    border: 1px solid rgb(240, 240, 240);
-    border-radius: 2px;
-    margin:10px;
-    padding-top:4px;
-    padding-bottom:4px;
-    padding-right:16px;
-    padding-left:16px;
-    transition: color 0.5s, border 0.5s;
 }
-.social_btns:hover{
+.btns:hover{
     color:rgb(221, 85, 19);
     border: 1px solid rgb(223, 223, 223);
+}
+.Content_btns_box{
+  text-align: center;
+  margin-top: 5%;
+}
+.content_btns{
+  font-size: 15px;
 }
