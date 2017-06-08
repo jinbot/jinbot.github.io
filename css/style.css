@@ -1,10 +1,15 @@
 @font-face{
-  font-family:'Dosis-Medium'; src:url('../font/Dosis-Medium.ttf')
+  font-family:'Dosis-Medium';
+  src:url('../font/Dosis-Medium.ttf');
+}
+@font-face {
+  font-family: 'NanumSquareR';
+  src: url('../font/NanumSquareR.otf');
 }
 html, body {
   margin: 0;
-  font-family: 'Dosis-Medium';
-  color:rgb(42, 42, 42);
+  font-family: 'Dosis-Medium', 'NanumSquareR';
+  color:rgb(252, 252, 252);
   min-height: 500px;
   height: 100%;
   background-image: url("../img/startup-593327_1920.jpg");
@@ -19,10 +24,8 @@ html, body {
 .nomargin {
   margin:0px;
 }
-.container-fluid{
-  position: relative;
-}
-/*.navbar_box{
+
+.navbar_box{
   width: 100%;
   background-color: rgba(45, 170, 14, 0.55);
   padding: 0;
@@ -31,23 +34,22 @@ html, body {
     text-align: center;
     color:rgb(34, 34, 34);
 }
-.MyInfo_box{
-    background-color: rgb(110, 110, 110);
-    height:200px;
-}*/
+
 .background_img{
   min-height: 500px;
 }
 .Main_box{
   position: absolute;
-  margin-top:2%;
-  background-color:#FFF;
+  margin-top:1%;
+  margin-bottom:1%;
   border-radius: 5px;
-  color:#000;
-
-
+  background-image: url(../img/startup-593327_1920_e.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.Wrapper{
+.Main_box_Wrapper{
   margin: 5%;
 }
 .Main_box_imgbox{
@@ -61,24 +63,28 @@ html, body {
 }
 .Main_box_content{
   margin-top: 10%;
+
 }
 .Myschool_box{
   text-align: center;
   font-size: 15px;
 }
 .Myschool_content{
+  font-size: 15px;
   margin-top:5px;
   padding-top: 8px;
-  border-top:1px solid rgb(240, 240, 240);
-  border-bottom:1px solid rgb(240, 240, 240);
+  border-top:1px solid #FFF;
+  border-bottom:1px solid #FFF;
+  color:#FFF;
 }
+
 .social_btns_box{
   text-align: center;
   margin-top: 5%;
 }
 .btns{
   background-color: #FFF;
-  border: 1px solid rgb(240, 240, 240);
+  border: 1px solid #FFF;
   border-radius: 2px;
   margin:1%;
   padding-top:4px;
@@ -86,18 +92,56 @@ html, body {
   padding-right:16px;
   padding-left:16px;
   transition: color 0.5s, border 0.5s;
+  color: rgb(40,40,40);
 }
 .social_btns{
     font-size: 40px;
 }
 .btns:hover{
-    color:rgb(221, 85, 19);
-    border: 1px solid rgb(223, 223, 223);
+    color: #c9851e;
+    border: 1px solid rgb(204, 204, 204);
 }
+/*#D24D57*/
 .Content_btns_box{
   text-align: center;
   margin-top: 5%;
 }
 .content_btns{
-  font-size: 15px;
+  font-size: 18px;
+}
+.AboutMeBox_Wrapper{
+
+}
+.AboutME_title{
+  text-align: center;
+  margin-top:2%;
+  margin-bottom: 2%;
+}
+.back_btns{
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.MyInfobox{
+  border: 1px solid white;
+}
+.MyInfo_Wrppaer{
+  margin:2%;
+}
+.ActivityBox{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.Activity{
+  margin-top:2%;
+  margin-bottom:5%;
+}
+.Activity_list{
+  padding-bottom : 1%;
+
+  font-size: 14px;
+}
+.Activity_list_date{
+  color:#c9851e;
 }
