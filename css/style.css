@@ -18,6 +18,9 @@ html, body {
   background-attachment: fixed;
   background-size: cover;
 }
+.bodyblack{
+  background-color: rgba(30, 31, 30, 0.87);
+}
 .nopadding {
   padding: 0px;
 }
@@ -153,8 +156,9 @@ html, body {
   border-radius: 2px;
   background-color: #333;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(64,63,64,1);
--moz-box-shadow: 10px 10px 5px 0px rgba(64,63,64,1);
-box-shadow: 10px 10px 5px 0px rgba(64,63,64,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(64,63,64,1);
+  box-shadow: 10px 10px 5px 0px rgba(64,63,64,1);
+  cursor: pointer;
 }
 .posts_texts{
   text-align: center;
@@ -168,4 +172,40 @@ box-shadow: 10px 10px 5px 0px rgba(64,63,64,1);
 .experiences{
   height: 300px;
   overflow: hidden;
+}
+.dialog{
+  color: white;
+  font-family: 'Dosis-Medium', 'NanumSquareR';
+  text-align: center;
+}
+.ui-dialog .ui-dialog-title {
+  width: 100%;
+  color: white;
+  font-family: 'Dosis-Medium', 'NanumSquareR';
+}
+.ui-dialog-titlebar{
+  text-align: center;
+}
+
+.ui-widget-content{
+  background-color: #606060;
+}
+.ui-widget-header{
+    font-size: 25px;
+    background-color: #606060;
+    border: 1px solid #606060;
+}
+.dialog_bigwidthimgbox{
+  max-width: 800px;
+}
+.dialog_bigheightimgbox{
+  width:30%;
+  margin-left: 35%;
+}
+.dialog_text{
+  margin-top:2%;
+
+}
+.bigheight{
+  max-width: 800px;
 }
