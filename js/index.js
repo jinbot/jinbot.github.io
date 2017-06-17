@@ -10,11 +10,11 @@ $( function() {
         width:'auto',
         closeOnEscape: true,
         show: {
-          effect: "fold",
+          effect: "fade",
           duration: 500,
         },
         hide: {
-          effect: "fold",
+          effect: "fade",
           duration: 500,
         }
       });
