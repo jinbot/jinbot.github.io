@@ -18,6 +18,10 @@ html, body {
   background-attachment: fixed;
   background-size: cover;
 }
+hr{
+  border-color: #c9851e;
+  
+}
 .bodyblack{
   background-color: rgba(30, 31, 30, 0.87);
 }
