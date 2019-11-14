@@ -9,7 +9,7 @@
 html, body {
   margin: 0;
   font-family: 'Dosis-Medium', 'NanumSquareR';
-  color:rgb(252, 252, 252);
+  
   min-height: 500px;
   height: 100%;
   background-image: url("../img/startup-593327_1920.jpg");
@@ -46,7 +46,7 @@ html, body {
   margin-top:1%;
   margin-bottom:1%;
   border-radius: 5px;
-  background-image: url(../img/startup-593327_1920_e.jpg);
+  background-color: whitesmoke;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-attachment: fixed;
@@ -65,20 +65,9 @@ html, body {
   border-radius: 10px;
 }
 .Main_box_content{
+  color:  #c9851e;
   margin-top: 10%;
-
-}
-.Myschool_box{
-  text-align: center;
-  font-size: 15px;
-}
-.Myschool_content{
-  font-size: 15px;
-  margin-top:5px;
-  padding-top: 8px;
-  border-top:1px solid #FFF;
-  border-bottom:1px solid #FFF;
-  color:#FFF;
+  
 }
 
 .social_btns_box{
@@ -105,6 +94,18 @@ html, body {
     border: 1px solid rgb(204, 204, 204);
 }
 /*#D24D57*/
+
+.Main_box_tag{
+  margin-top:0px;
+  color: #c9851e;
+}
+.Main_box_text{
+  font-size: 15px;
+  margin-top:0px;
+  line-height: 30px;
+  color:black;
+}
+
 .Content_btns_box{
   text-align: center;
   margin-top: 5%;
